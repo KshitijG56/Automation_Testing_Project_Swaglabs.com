@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_Inventory_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login_Inventory_Test(failed)">
+    <classes>
+      <class name="testcases.LoginPageTestFM01">
+        <methods>
+          <include name="verifyUrlTest"/>
+          <include name="closeBrowser"/>
+          <include name="verifyTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTestFM01 -->
+      <class name="testcases.InventoryPageTestFM01">
+        <methods>
+          <include name="verifyTitleTestIP"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAdd6ProductTest"/>
+        </methods>
+      </class> <!-- testcases.InventoryPageTestFM01 -->
+    </classes>
+  </test> <!-- Login_Inventory_Test(failed) -->
+</suite> <!-- Failed suite [Login_Inventory_Suite] -->
