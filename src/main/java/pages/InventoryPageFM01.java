@@ -76,7 +76,7 @@ public class InventoryPageFM01 extends TestBaseFM01 {
     
     public String verifyClickOnCartIcon()
     {
-    	cartIcon.click();                // To use this to open cart page, can write tc on it
+    	cartIcon.click();                
         return driver.getCurrentUrl();	
     }
     

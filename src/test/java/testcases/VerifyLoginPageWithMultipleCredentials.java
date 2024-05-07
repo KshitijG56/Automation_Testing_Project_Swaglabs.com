@@ -28,8 +28,8 @@ public class VerifyLoginPageWithMultipleCredentials extends TestBaseFM01{
 	@DataProvider(name = "Credentials")
 	public Object[][] getData()
 	{
-		return new Object[][]        // new array gets created of Object type, Object = class type, 
-		{                                       // Multiple elements aise add kar sakte in array using brackets
+		return new Object[][]       
+		{                                 
 			{"standard_user","secret_sauce"},
 //			{"locked_out_user","secret_sauce"},
 			{"problem_user","secret_sauce"},
@@ -58,9 +58,9 @@ public class VerifyLoginPageWithMultipleCredentials extends TestBaseFM01{
 		  String exp = "https://www.saucedemo.com/inventory.html";
 		  String act = Login.loginToApplicationMultiCreds(un, pass);
 		  sa.assertEquals(exp, act);
-		  sa.assertAll();               // sare exceptions ek sath show karega
+		  sa.assertAll();               
 	}
-	// yeh method LoginPagetest class me bhi likh sakte, complicate na ho isliye yaha likha hai
+	
 	
 	@AfterMethod
     public void closeBrowser(ITestResult itr) throws IOException

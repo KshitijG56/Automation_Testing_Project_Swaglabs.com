@@ -22,7 +22,7 @@ public class CheckOutPage02Test extends TestBaseFM01{
 
 	LoginPageFM01 login;
 	InventoryPageFM01 invent;
-	CartPageFM01 cart;
+	CartPageFM01 cart;           
     CheckOutPage01 check1;
     CheckOutPage02 check2;
     

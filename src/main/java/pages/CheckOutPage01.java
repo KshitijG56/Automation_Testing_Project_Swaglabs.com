@@ -12,7 +12,6 @@ import utility.ReadDataFM01;
 
 public class CheckOutPage01 extends TestBaseFM01{
 
-	// URL, Pagelable,cancelbutton,continue button test karna hai
 	
 		// Object Repository
 		@FindBy(xpath="//input[@id='first-name']") private WebElement firstNameTxtBox;
