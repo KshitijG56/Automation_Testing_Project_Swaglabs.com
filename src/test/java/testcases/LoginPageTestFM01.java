@@ -24,7 +24,7 @@ public class LoginPageTestFM01 extends TestBaseFM01{
 		Login = new LoginPageFM01();
 	}
 	
-	@Test(enabled = true, priority = 3, dependsOnMethods = "verifyUrlTest")
+	@Test(enabled = true, priority = 3)
 	public void verifyLoginToApplicationTest() throws IOException
 	{
 		String exp = ReadDataFM01.readExcel(0, 2); // https://www.saucedemo.com/inventory.html (0,2)
@@ -33,7 +33,7 @@ public class LoginPageTestFM01 extends TestBaseFM01{
 		
 	}
 	
-	@Test(enabled = true, priority = 2, dependsOnMethods = "verifyUrlTest")
+	@Test(enabled = true, priority = 2)
 	public void verifyTitleTest() throws EncryptedDocumentException, IOException
 	{
 	   String exp = ReadDataFM01.readExcel(0, 0);  // Swag Labs (0,0)   -- fail
