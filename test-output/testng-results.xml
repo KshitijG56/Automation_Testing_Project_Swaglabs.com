@@ -1,108 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T16:48:49 IST" name="Failed suite [AllPagesTestSuite]" finished-at="2024-05-01T16:49:35 IST" duration-ms="45218">
+  <suite started-at="2024-05-25T20:22:01 IST" name="Default suite" finished-at="2024-05-25T20:22:01 IST" duration-ms="49">
     <groups>
     </groups>
-    <test started-at="2024-05-01T16:48:49 IST" name="AllPagesTest(failed)" finished-at="2024-05-01T16:49:35 IST" duration-ms="45218">
-      <class name="testcases.LoginPageTestFM01">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:14 IST" name="setUp" finished-at="2024-05-01T16:49:20 IST" duration-ms="6274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUrlTest()[pri:1, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:20 IST" name="verifyUrlTest" finished-at="2024-05-01T16:49:22 IST" duration-ms="1495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUrlTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:22 IST" name="closeBrowser" finished-at="2024-05-01T16:49:22 IST" duration-ms="274" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUrlTest status=SUCCESS method=LoginPageTestFM01.verifyUrlTest()[pri:1, instance:testcases.LoginPageTestFM01@24313fcc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:22 IST" name="setUp" finished-at="2024-05-01T16:49:27 IST" duration-ms="5383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTitleTest()[pri:2, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:27 IST" name="verifyTitleTest" finished-at="2024-05-01T16:49:28 IST" depends-on-methods="testcases.LoginPageTestFM01.verifyUrlTest" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:28 IST" name="closeBrowser" finished-at="2024-05-01T16:49:28 IST" duration-ms="138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=LoginPageTestFM01.verifyTitleTest()[pri:2, instance:testcases.LoginPageTestFM01@24313fcc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:28 IST" name="setUp" finished-at="2024-05-01T16:49:34 IST" duration-ms="6031" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginToApplicationTest()[pri:3, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:34 IST" name="verifyLoginToApplicationTest" finished-at="2024-05-01T16:49:34 IST" depends-on-methods="testcases.LoginPageTestFM01.verifyUrlTest" duration-ms="697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginToApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTestFM01@24313fcc]" started-at="2024-05-01T16:49:34 IST" name="closeBrowser" finished-at="2024-05-01T16:49:35 IST" duration-ms="164" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginToApplicationTest status=SUCCESS method=LoginPageTestFM01.verifyLoginToApplicationTest()[pri:3, instance:testcases.LoginPageTestFM01@24313fcc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.LoginPageTestFM01 -->
+    <test started-at="2024-05-25T20:22:01 IST" name="Default test" finished-at="2024-05-25T20:22:01 IST" duration-ms="49">
       <class name="testcases.VerifyLoginPageWithMultipleCredentials">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:48:49 IST" name="setUp" finished-at="2024-05-01T16:48:59 IST" duration-ms="9114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:48:59 IST" name="loginToApplicationMultiCredsTest" data-provider="Credentials2" finished-at="2024-05-01T16:48:59 IST" duration-ms="572" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+        <test-method signature="loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@77c2494c]" started-at="2024-05-25T20:22:01 IST" name="loginToApplicationMultiCredsTest" finished-at="2024-05-25T20:22:01 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
+              <![CDATA[
+Method public void testcases.VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(java.lang.String,java.lang.String) requires a @DataProvider named : Credentials2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testcases.VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(VerifyLoginPageWithMultipleCredentials.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+              <![CDATA[org.testng.TestNGException: 
+Method public void testcases.VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(java.lang.String,java.lang.String) requires a @DataProvider named : Credentials2
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:526)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:763)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -124,168 +43,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplicationMultiCredsTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:48:59 IST" name="closeBrowser" finished-at="2024-05-01T16:49:00 IST" duration-ms="455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginToApplicationMultiCredsTest status=FAILURE method=VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:00 IST" name="setUp" finished-at="2024-05-01T16:49:06 IST" duration-ms="6289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:06 IST" name="loginToApplicationMultiCredsTest" data-provider="Credentials2" finished-at="2024-05-01T16:49:06 IST" duration-ms="402" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testcases.VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(VerifyLoginPageWithMultipleCredentials.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplicationMultiCredsTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:06 IST" name="closeBrowser" finished-at="2024-05-01T16:49:07 IST" duration-ms="393" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginToApplicationMultiCredsTest status=FAILURE method=VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:07 IST" name="setUp" finished-at="2024-05-01T16:49:13 IST" duration-ms="6545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:13 IST" name="loginToApplicationMultiCredsTest" data-provider="Credentials2" finished-at="2024-05-01T16:49:14 IST" duration-ms="375" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[s1ecret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testcases.VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(VerifyLoginPageWithMultipleCredentials.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApplicationMultiCredsTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e]" started-at="2024-05-01T16:49:14 IST" name="closeBrowser" finished-at="2024-05-01T16:49:14 IST" duration-ms="409" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginToApplicationMultiCredsTest status=FAILURE method=VerifyLoginPageWithMultipleCredentials.loginToApplicationMultiCredsTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLoginPageWithMultipleCredentials@62ddbd7e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.VerifyLoginPageWithMultipleCredentials -->
-    </test> <!-- AllPagesTest(failed) -->
-  </suite> <!-- Failed suite [AllPagesTestSuite] -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

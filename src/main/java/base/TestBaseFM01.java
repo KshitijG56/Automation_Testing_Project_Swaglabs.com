@@ -19,7 +19,7 @@ public class TestBaseFM01 {
 		  
 		  if(browserrr.equals("chrome"))
 		  {
-			  WebDriverManager.edgedriver().setup();
+			  WebDriverManager.chromedriver().setup();
 			  driver = new ChromeDriver();
 		  }
 		  else if(browserrr.equals("edge"))

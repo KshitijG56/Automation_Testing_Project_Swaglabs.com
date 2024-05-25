@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.CheckOutPage01Test">
+      <class name="testcases.VerifyLoginPageWithMultipleCredentials">
         <methods>
-          <include name="Setup"/>
+          <include name="loginToApplicationMultiCredsTest"/>
           <include name="closeBrowser"/>
-          <include name="verifyClickOnCancelBtnTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.CheckOutPage01Test -->
+      </class> <!-- testcases.VerifyLoginPageWithMultipleCredentials -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
