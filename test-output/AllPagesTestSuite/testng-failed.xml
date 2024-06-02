@@ -3,22 +3,22 @@
 <suite name="Failed suite [AllPagesTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="AllPagesTest(failed)">
     <classes>
+      <class name="testcases.CheckOutPage01Test">
+        <methods>
+          <include name="verifyContinueBtnTest"/>
+          <include name="closeBrowser"/>
+          <include name="Setup"/>
+          <include name="verifyPageLableTest"/>
+          <include name="verifyClickOnCancelBtnTest"/>
+        </methods>
+      </class> <!-- testcases.CheckOutPage01Test -->
       <class name="testcases.VerifyLoginPageWithMultipleCredentials">
         <methods>
-          <include name="loginToApplicationMultiCredsTest" invocation-numbers="1 2 3"/>
+          <include name="loginToApplicationMultiCredsTest"/>
           <include name="closeBrowser"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcases.VerifyLoginPageWithMultipleCredentials -->
-      <class name="testcases.LoginPageTestFM01">
-        <methods>
-          <include name="verifyUrlTest"/>
-          <include name="closeBrowser"/>
-          <include name="verifyLoginToApplicationTest"/>
-          <include name="verifyTitleTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testcases.LoginPageTestFM01 -->
     </classes>
   </test> <!-- AllPagesTest(failed) -->
 </suite> <!-- Failed suite [AllPagesTestSuite] -->

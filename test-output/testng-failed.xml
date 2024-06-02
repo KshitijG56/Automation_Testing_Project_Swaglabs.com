@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [AllPagesTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AllPagesTest(failed)">
     <classes>
+      <class name="testcases.CheckOutPage01Test">
+        <methods>
+          <include name="verifyContinueBtnTest"/>
+          <include name="closeBrowser"/>
+          <include name="Setup"/>
+          <include name="verifyPageLableTest"/>
+          <include name="verifyClickOnCancelBtnTest"/>
+        </methods>
+      </class> <!-- testcases.CheckOutPage01Test -->
       <class name="testcases.VerifyLoginPageWithMultipleCredentials">
         <methods>
           <include name="loginToApplicationMultiCredsTest"/>
           <include name="closeBrowser"/>
           <include name="setUp"/>
-        </methods>
+        </methods> 
       </class> <!-- testcases.VerifyLoginPageWithMultipleCredentials -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- AllPagesTest(failed) -->
+</suite> <!-- Failed suite [AllPagesTestSuite] -->
