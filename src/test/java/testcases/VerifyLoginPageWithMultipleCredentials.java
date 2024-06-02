@@ -25,7 +25,7 @@ public class VerifyLoginPageWithMultipleCredentials extends TestBaseFM01{
 		 Login = new LoginPageFM01();		 
 	}
 	
-	@DataProvider(name = "Credentials")
+	@DataProvider(name = "Credentials2")
 	public Object[][] getData()
 	{
 		return new Object[][]       
