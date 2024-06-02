@@ -38,5 +38,6 @@ public class TestBaseFM01 {
                driver.get(ReadDataFM01.readProperty("URL"));
                Thread.sleep(2000);
       }
-	   
+	   // Automation swaglabs project
+	  
 }
