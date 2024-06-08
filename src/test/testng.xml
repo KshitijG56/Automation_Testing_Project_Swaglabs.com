@@ -5,6 +5,9 @@
     <classes>
       <class name="testcases.LoginPageTestFM01"/>
       <class name="testcases.InventoryPageTestFM01"/>
+      <class name="testcases.CartPageTestFM01"/>
+      <class name="testcases.VerifyLoginPageWithMultipleCredentials"/>
+      <class name="testcases.CheckOutPage02Test"/>
     </classes>
   </test> <!-- Login_Inventory_Test -->
 </suite> <!-- Login_Inventory_Suite -->
